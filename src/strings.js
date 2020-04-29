@@ -1,25 +1,41 @@
 const sayHello = string => {
-  return ('Hello, world!');
+  return `Hello, ${string}!`;
 };
 
 const uppercase = string => {
-  // your code here
+  return string.toUpperCase();
+  /* 
+ const letter = string;
+ const up =  letter.toUpperCase();
+ return up;*/
+
 };
 
 const lowercase = string => {
-  // your code here
+  return string.toLowerCase();
+ /* const littleletters = string;
+  const minis = littleletters.toLowerCase();
+  return minis;*/
 };
 
 const countCharacters = string => {
-  // your code here
+  return string.length;
+  /*
+  const howlong = string;
+  const howlongexactly = howlong.length;
+  return howlongexactly;*/
 };
 
 const firstCharacter = string => {
-  // your code here
+  return string.charAt(0);
 };
 
 const firstCharacters = (string, n) => {
-  // your code here
+  return string.substring(0, n);
+  /*
+  const theString = string;
+  const theNumber = n; 
+  return theString.substring(0, theNumber);*/
 };
 
 module.exports = {
