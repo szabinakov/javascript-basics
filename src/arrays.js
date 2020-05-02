@@ -48,8 +48,7 @@ const onlyEven = numbers => {
 };
 
 const removeNthElement2 = (index, array) => {
- 
-
+  return array.filter((x, elementPos) => elementPos !== index);
 
 };
 
